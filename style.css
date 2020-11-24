@@ -1,0 +1,202 @@
+.background-overlay {
+    width: 100%;
+    background: url("6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    color: #fff;
+    height: 800px;
+    padding-bottom: 100px;
+}
+
+.navbar-toggler {
+    color: white !important;
+    background-color: white !important;
+}
+
+.nav-bg {
+    background-color: black;
+    color: white;
+}
+
+.nav-link,
+a {
+    color: white !important;
+}
+
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.form-inline {
+    margin-top: 12%;
+}
+
+.modal-header,
+.modal-content,
+.modal-footer,
+.btn-info {
+    background-color: #e7b94f !important;
+}
+
+.icon {
+    padding-top: 5%;
+}
+
+#contactus {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2));
+    color: white;
+}
+
+@media only screen and (max-width: 780px) and (min-width: 260px) {
+    .navbar-brand {
+        width: 40%;
+    }
+}
+
+.modal {
+    margin-top: 16% !important;
+}
+
+#detailform {
+    margin-top: 10% !important;
+}
+
+i {
+    font-size: 30px;
+    color: #e7b94f;
+    padding: 0px 5px 0px 5px;
+}
+
+#loginpage,
+#adminpage,
+#registerpage {
+    /* The image used */
+    background-image: url("6.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+#adminquestion {
+    margin: 0px;
+}
+
+#wrapper {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    width: auto;
+    padding: 3%;
+    background-color: white;
+    border-radius: 18px;
+}
+
+#registerheading {
+    color: #e7b94f;
+}
+
+.linkbutton {
+    text-decoration: none;
+    color: black!important;
+}
+
+#detailbutton,
+#addquestion,
+#quizbutton,
+#updatequestion,
+.quiz {
+    background-color: #e7b94f;
+    border: 2px;
+    border-radius: 10px;
+    color: white;
+    width: 155px;
+    padding: 12px 15px 12px 15px;
+}
+
+.detail,
+.ques,
+#quiz {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e7b94f;
+    padding: 5px 10px;
+}
+
+.detail,
+#detailbutton,
+ :focus {
+    outline: none;
+}
+
+#headerlist {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: teal;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.listoption {
+    background-color: teal;
+    width: 40%;
+    display: inline;
+    margin-left: 100px;
+}
+
+.listoption>a:hover {
+    color: tomato;
+}
+
+#setting {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.changes {
+    float: right;
+}
+
+.changes a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 20px 2px 20px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.changes a:hover {
+    background-color: #111111;
+}
+
+#setting>span {
+    padding-left: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+#changepassword,
+#changenumber,
+#changename {
+    display: none;
+    margin-left: 5%;
+    margin-top: 3%;
+}
